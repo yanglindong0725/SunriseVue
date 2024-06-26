@@ -1,0 +1,81 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+
+  "editor.formatOnSave": true,
+
+  "prettier.configPath": ".prettierrc.js",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // tailwindcss
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "json",
+    "jsonc",
+    "json5",
+    "yaml",
+    "yml",
+    "markdown"
+  ],
+  "cSpell.words": [
+    "antfu",
+    "daisyui",
+    "gesturestart",
+    "headlessui",
+    "heroicons",
+    "iconify",
+    "Katex",
+    "katexmath",
+    "Lato",
+    "mila",
+    "pixelarticons",
+    "qrcode",
+    "rushstack",
+    "swatchbook",
+    "tailwindcss",
+    "uuidv",
+    "vfonts",
+    "vueuse",
+    "yisu"
+  ],
+  "i18n-ally.localesPaths": ["src/locales"],
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "workbench.colorCustomizations": {
+    "minimap.background": "#00000000",
+    "scrollbar.shadow": "#00000000"
+  },
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}

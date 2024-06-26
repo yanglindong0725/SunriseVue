@@ -23,29 +23,17 @@ export function useTheme() {
     return customTheme.naiveThemeOverridesLight
   })
 
-  const daisyDark = useDark({
-    selector: 'html',
-    attribute: 'data-theme',
-    valueDark: 'dark',
-    valueLight: 'light',
-  })
-
   const tailWindDark = useDark()
 
-  const toggleDaisyDark = useToggle(daisyDark)
   const toggleTailWindDark = useToggle(tailWindDark)
 
   const toggleDark = () => {
-    toggleDaisyDark()
     toggleTailWindDark()
   }
 
   watch(
     () => isDark.value,
-    (dark) => {
-      if (dark === daisyDark.value) {
-        return
-      }
+    (_) => {
       toggleDark()
     },
     { immediate: true },

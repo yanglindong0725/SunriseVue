@@ -1,5 +1,5 @@
 export default {
   common: {
-    title: '像素画板',
+    title: 'D.Henry 模版',
   },
 }
